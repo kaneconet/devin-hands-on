@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "cd .. && node --experimental-vm-modules node_modules/.bin/jest --config=src/jest.config.js"
   },
   "keywords": [],
   "author": "",

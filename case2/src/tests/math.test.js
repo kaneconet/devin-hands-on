@@ -2,7 +2,7 @@
  * Jest unit tests for average function
  */
 
-import { average } from '../src/utils/math.js';
+import { average } from '../utils/math.js';
 
 describe('average function', () => {
   test('should return 0 for empty array', () => {
